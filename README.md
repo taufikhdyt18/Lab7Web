@@ -91,7 +91,7 @@ class Page extends BaseController
 #### Membuat Database: Studi Kasus Data Artikel
 
 - Buat database
-- 
+  
 ```
 CREATE DATABASE lab_ci4;
 ```
@@ -113,3 +113,53 @@ CREATE TABLE artikel (
 - Membuat Model file baru pada direktori app/Models dengan nama ArtikelModel.php
 
 ![image](ss/ss3.png)
+
+- Membuat Controller dengan nama Artikel.php pada direktori app/Controllers.
+
+![image](ss/ss5.png)
+
+- Membuat View, buat direktori baru dengan nama artikel pada direktori app/views, kemudian buat file baru
+dengan nama index.php.
+
+![image](ss/ss6.png)
+
+- Selanjutnya buka browser kembali, dengan mengakses url http://localhost:8080/artikel
+
+![image](ss/ss7.png)
+
+- Membuat Tampilan Detail Artikel, tambahkan fungsi baru pada Controller Artikel dengan nama view().
+
+![image](ss/ss8.png)
+
+- Membuat View Detail, buatview baru untuk halaman detail dengan nama app/views/artikel/detail.php
+
+![image](ss/ss9.png)
+
+- Membuat Routing untuk artikel detail, buka Kembali file app/config/Routes.php, kemudian tambahkan routing untuk artikel detail
+
+![image[(ss/ss10.png)
+
+- Membuat Menu Admin untuk proses CRUD data artikel. Buat method baru pada Controller
+Artikel dengan nama admin_index().
+
+![image](ss/ss11.png)
+
+- Selanjutnya buat view di app/Views/artikel untuk tampilan admin dengan nama admin_index.php
+
+![image](ss/ss12.png)
+
+- Tambahkan routing untuk menu admin seperti berikut:
+
+![image[(ss/ss10.png)
+
+- Akses menu admin dengan url http://localhost:8080/admin/artikel
+
+![image[(ss/ss13.png)
+
+- Menambah Data Artikel, tambahkan fungsi/method baru pada Controller Artikel dengan nama add()
+
+![image[(ss/ss14.png)
+
+- Kemudian buat view untuk form tambah dengan nama form_add.php
+
+![image[(ss/ss15.png)
