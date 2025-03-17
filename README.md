@@ -1,4 +1,4 @@
-# PHP
+# PHP Framework (Codeigniter4)
 | Praktikum 1-3  |  Pemrograman Web 2  
 |-------|---------
 | NIM   | 312310576
