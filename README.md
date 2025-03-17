@@ -238,3 +238,21 @@ improvisasi.
 ### Apa manfaat utama dari penggunaan View Layout dalam pengembangan aplikasi?
 
 - Manfaat utama dari View Layout adalah bikin kode lebih rapi dan gampang dikelola. Bagian yang sama kayak header, footer, atau sidebar cukup dibuat sekali, jadi nggak perlu ditulis ulang di setiap halaman. Ini bikin kerja lebih cepat, tampilan lebih konsisten, dan kalau mau edit sesuatu, cukup ubah di satu tempat aja.
+
+### Jelaskan perbedaan antara View Cell dan View biasa.
+
+Perbedaan utama antara View Cell dan View biasa ada di cara penggunaannya:
+
+- View biasa dipakai buat nampilin halaman atau bagian dari halaman secara langsung. Biasanya dipanggil dari controller pakai return view('namaview', $data), dan isinya bisa berupa HTML + PHP yang ngolah data dari controller.
+
+- View Cell lebih fleksibel karena bisa dipanggil di dalam view lain. Ini cocok buat komponen kecil yang sering dipakai ulang, kayak sidebar, widget, atau daftar artikel terbaru. Panggilannya pakai <?= view_cell('NamaClass::method') ?>, jadi bisa load data langsung tanpa harus lewat controller dulu.
+
+Simpelnya, View biasa buat nampilin halaman utama, sedangkan View Cell buat nge-load bagian kecil dari halaman secara dinamis.
+
+
+
+
+
+
+
+# SELESAI
