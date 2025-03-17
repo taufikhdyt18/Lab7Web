@@ -235,3 +235,6 @@ improvisasi.
 ![image](ss/ss25.png) 
 
 
+### Apa manfaat utama dari penggunaan View Layout dalam pengembangan aplikasi?
+
+- Manfaat utama dari View Layout adalah bikin kode lebih rapi dan gampang dikelola. Bagian yang sama kayak header, footer, atau sidebar cukup dibuat sekali, jadi nggak perlu ditulis ulang di setiap halaman. Ini bikin kerja lebih cepat, tampilan lebih konsisten, dan kalau mau edit sesuatu, cukup ubah di satu tempat aja.
