@@ -65,10 +65,13 @@ class Page extends BaseController
     }
 }
 ```
+### Halaman About
 
+![image](ss/ss1.png)
 
+### Halaman Kontak
 
-
+![image](ss/ss2.png)
 
 
 
