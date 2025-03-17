@@ -154,12 +154,22 @@ Artikel dengan nama admin_index().
 
 - Akses menu admin dengan url http://localhost:8080/admin/artikel
 
-![image[(ss/ss13.png)
+![image](ss/ss13.png)
 
 - Menambah Data Artikel, tambahkan fungsi/method baru pada Controller Artikel dengan nama add()
 
-![image[(ss/ss14.png)
+![image](ss/ss14.png)
 
 - Kemudian buat view untuk form tambah dengan nama form_add.php
 
-![image[(ss/ss15.png)
+![image](ss/ss15.png)
+
+- tampilan di http://localhost:8080/admin/artikel/add
+
+![image](ss/ss16.png)
+
+- Mengubah Data, tambahkan fungsi/method baru pada app/Controller/Artikel dengan nama edit()
+
+![image](ss/ss17.png)
+
+- Kemudian buat file view di lokasi file Views/artikel/form_edit.php
