@@ -83,12 +83,21 @@ class Page extends BaseController
 
 #### Konfigurasi koneksi database di file (.env)
 
+- Hapus (#) pada text konfigurasi database(.env)
+
+![image](ss/ss4.png)
+
+
 #### Membuat Database: Studi Kasus Data Artikel
+
 - Buat database
+- 
 ```
 CREATE DATABASE lab_ci4;
 ```
+
 - Buat Table
+
 ```
 CREATE TABLE artikel (
  id INT(11) auto_increment,
