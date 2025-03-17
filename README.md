@@ -65,3 +65,15 @@ class Page extends BaseController
     }
 }
 ```
+
+
+
+
+
+
+
+
+
+## Praktikum 2
+### Pertanyaan dan Tugas
+- Selesaikan programnya sesuai Langkah-langkah yang ada. Anda boleh melakukan improvisasi
