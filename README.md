@@ -150,7 +150,7 @@ Artikel dengan nama admin_index().
 
 - Tambahkan routing untuk menu admin seperti berikut:
 
-![image[(ss/ss10.png)
+![image](ss/ss10.png)
 
 - Akses menu admin dengan url http://localhost:8080/admin/artikel
 
@@ -183,5 +183,55 @@ Artikel dengan nama admin_index().
 - Menghapus data, tambahkan fungsi/method baru pada app/Controller/Artikel dengan nama delete().
 
 ![image](ss/ss20.png)
+
+
+## Praktikum 3
+### Pertanyaan dan Tugas
+
+- Sesuaikan data dengan praktikum sebelumnya, perlu melakukan perubahan field pada
+database dengan menambahkan tanggal agar dapat mengambil data artikel terbaru.
+
+- Selesaikan programnya sesuai Langkah-langkah yang ada. Anda boleh melakukan
+improvisasi.
+
+- Apa manfaat utama dari penggunaan View Layout dalam pengembangan aplikasi?
+
+- Jelaskan perbedaan antara View Cell dan View biasa.
+
+- Ubah View Cell agar hanya menampilkan post dengan kategori tertentu.
+
+
+### Membuat Layout Utama
+
+- Buat folder layout di dalam app/Views/
+
+- Buat file main.php di dalam folder layout dengan kode berikut:
+
+![image](ss/ss21.png)
+
+### Modifikasi File View
+- Ubah app/Views/home.php agar sesuai dengan layout baru:
+
+![image](ss/ss22.png)
+
+### Membuat Class View Cell
+
+- Buat folder Cells di dalam app/
+
+- Buat file ArtikelTerkini.php di dalam app/Cells/ dengan kode berikut:
+
+![image](ss/ss23.png)
+
+### Membuat View untuk View Cell
+
+- Buat folder components di dalam app/Views/
+
+- Buat file artikel_terkini.php di dalam app/Views/components/ dengan kode berikut:
+
+![image](ss/ss24.png) 
+
+### tampilan di http://localhost:8080/
+
+![image](ss/ss25.png) 
 
 
