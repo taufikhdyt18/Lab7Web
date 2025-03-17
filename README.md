@@ -253,5 +253,4 @@ Simpelnya, View biasa buat nampilin halaman utama, sedangkan View Cell buat nge-
 
 ![image](ss/ss25.png) 
 
-
 # SELESAI
