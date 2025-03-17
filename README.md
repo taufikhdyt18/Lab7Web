@@ -230,9 +230,6 @@ improvisasi.
 
 ![image](ss/ss24.png) 
 
-### tampilan di http://localhost:8080/
-
-![image](ss/ss25.png) 
 
 
 ### Apa manfaat utama dari penggunaan View Layout dalam pengembangan aplikasi?
@@ -250,9 +247,11 @@ Perbedaan utama antara View Cell dan View biasa ada di cara penggunaannya:
 Simpelnya, View biasa buat nampilin halaman utama, sedangkan View Cell buat nge-load bagian kecil dari halaman secara dinamis.
 
 
+### Ubah View Cell agar hanya menampilkan post dengan kategori tertentu.
 
+- Tampilan di http://localhost:8080/
 
-
+![image](ss/ss25.png) 
 
 
 # SELESAI
