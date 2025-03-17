@@ -81,6 +81,7 @@ class Page extends BaseController
 ### Pertanyaan dan Tugas
 - Selesaikan programnya sesuai Langkah-langkah yang ada. Anda boleh melakukan improvisasi
 
+#### Konfigurasi koneksi database di file (.env)
 
 #### Membuat Database: Studi Kasus Data Artikel
 - Buat database
@@ -99,5 +100,7 @@ CREATE TABLE artikel (
  PRIMARY KEY(id)
 );
 ```
+
 - Membuat Model file baru pada direktori app/Models dengan nama ArtikelModel.php
+
 ![image](ss/ss3.png)
