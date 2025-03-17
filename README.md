@@ -173,3 +173,15 @@ Artikel dengan nama admin_index().
 ![image](ss/ss17.png)
 
 - Kemudian buat file view di lokasi file Views/artikel/form_edit.php
+
+![image](ss/ss18.png)
+
+- tampilan di http://localhost:8080/admin/artikel/edit/1
+
+![image](ss/ss19.png)
+
+- Menghapus data, tambahkan fungsi/method baru pada app/Controller/Artikel dengan nama delete().
+
+![image](ss/ss20.png)
+
+
