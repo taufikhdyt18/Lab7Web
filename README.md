@@ -137,7 +137,7 @@ dengan nama index.php.
 
 - Membuat Routing untuk artikel detail, buka Kembali file app/config/Routes.php, kemudian tambahkan routing untuk artikel detail
 
-![image[(ss/ss10.png)
+![image](ss/ss10.png)
 
 - Membuat Menu Admin untuk proses CRUD data artikel. Buat method baru pada Controller
 Artikel dengan nama admin_index().
