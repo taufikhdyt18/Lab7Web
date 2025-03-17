@@ -80,3 +80,24 @@ class Page extends BaseController
 ## Praktikum 2
 ### Pertanyaan dan Tugas
 - Selesaikan programnya sesuai Langkah-langkah yang ada. Anda boleh melakukan improvisasi
+
+
+#### Membuat Database: Studi Kasus Data Artikel
+- Buat database
+```
+CREATE DATABASE lab_ci4;
+```
+- Buat Table
+```
+CREATE TABLE artikel (
+ id INT(11) auto_increment,
+ judul VARCHAR(200) NOT NULL,
+ isi TEXT,
+ gambar VARCHAR(200),
+ status TINYINT(1) DEFAULT 0,
+ slug VARCHAR(200),
+ PRIMARY KEY(id)
+);
+```
+- Membuat Model file baru pada direktori app/Models dengan nama ArtikelModel.php
+![image](ss/ss3.png)
