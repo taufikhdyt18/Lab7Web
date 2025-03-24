@@ -11,6 +11,6 @@
 
 ![image](ss25.png)
 
-### Setelah Masuk dengan UserSeeder dan menyimpannya ke database user
+### Setelah Masuk dengan UserSeeder dan menyimpannya ke Database User.
 
 ![image](ss26.png)
