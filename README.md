@@ -5,3 +5,12 @@
 | Nama  | Taufik Hidayat
 | Kelas | TI.23.A6
 | Dosen |  Agung Nugroho, S.Kom., M.Kom.
+
+
+### Halaman Login dengan filter Auth pada Config/Routes.php
+
+![image](ss25.png)
+
+### Setelah Masuk dengan UserSeeder dan menyimpannya ke database user
+
+![image](ss26.png)
