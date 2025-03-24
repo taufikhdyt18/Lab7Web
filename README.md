@@ -7,10 +7,10 @@
 | Dosen |  Agung Nugroho, S.Kom., M.Kom.
 
 
-### Halaman Login dengan filter Auth pada Config/Routes.php
+### Halaman Login dengan filter Auth pada Config/Routes.php, menyimpan database dengan UserSeeder.
 
 ![image](ss25.png)
 
-### Setelah Masuk dengan UserSeeder dan menyimpannya ke Database User.
+### Setelah Login & Masuk ke halaman Admin Artikel.
 
 ![image](ss26.png)
