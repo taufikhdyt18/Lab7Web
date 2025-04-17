@@ -34,7 +34,7 @@ pencarian sebelum deklarasi tabel seperti berikut:
 ![image](ss/ssp5_3.png)
 
 Dan pada link pager ubah seperti berikut.
-App/Views/artikel/admmin_index.php bagian paling bawah diatas footer
+App/Views/artikel/admin_index.php bagian paling bawah diatas footer
 
 ![image](ss/ssp5_4.png)
 
