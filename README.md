@@ -22,3 +22,6 @@ Pagination merupakan proses yang digunakan untuk membatasi tampilan yang panjang
 dari data yang banyak pada sebuah website. Fungsi pagination adalah memecah tampilan
 menjadi beberapa halaman tergantung banyaknya data yang akan ditampilkan pada
 setiap halaman.
+
+Untuk membuat pagination, buka Kembali App/Controller/Artikel, kemudian modifikasi kode
+pada method public function admin_index seperti berikut.
