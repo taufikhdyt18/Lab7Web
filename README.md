@@ -26,4 +26,4 @@ setiap halaman.
 Untuk membuat pagination, buka Kembali App/Controller/Artikel, kemudian modifikasi kode
 pada method public function admin_index seperti berikut.
 
-![image](ss/ssp5_2)
+![image](ss/ssp5_2.png)
