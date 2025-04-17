@@ -27,3 +27,17 @@ Untuk membuat pagination, buka Kembali App/Controller/Artikel, kemudian modifika
 pada method public function admin_index seperti berikut.
 
 ![image](ss/ssp5_2.png)
+
+Kemudian buka kembali file App/Views/artikel/admin_index.php dan tambahkan form
+pencarian sebelum deklarasi tabel seperti berikut:
+
+![image](ss/ssp5_3.png)
+
+Dan pada link pager ubah seperti berikut.
+App/Views/artikel/admmin_index.php bagian paling bawah diatas footer
+
+![image](ss/ssp5_4.png)
+
+Hasilnya akan seperti ini:
+
+![image](ss/ssp5.png)
