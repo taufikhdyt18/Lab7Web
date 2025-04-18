@@ -8,6 +8,20 @@
 
 ## Praktikum 1
 
+Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehingga semua
+link pada navigasi header dapat menampilkan tampilan dengan layout yang sama.
+
+- Halaman About
+
+![gambar](ss/ss1.png)
+
+- Artikel
+
+![image](ss/ss7.png)
+
+- Kontak
+
+![image](ss/ss2.png)
 ## Praktikum 4
 ### Halaman Login dengan filter Auth pada Config/Routes.php, menyimpan database dengan UserSeeder.
 
