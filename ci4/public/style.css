@@ -1,5 +1,50 @@
+css ci4
 /* Reset CSS */
 /* Reset dasar */
+.pagination {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    justify-content: center; /* tengah */
+    margin-top: 20px;
+    gap: 5px;
+}
+
+.pagination li {
+    display: inline;
+}
+
+.pagination li a,
+.pagination li span {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    color: #333;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: all 0.2s ease-in-out;
+}
+
+.pagination li a:hover {
+    background-color: #e0e0e0;
+    color: #000;
+}
+
+.pagination li.active span {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+    font-weight: bold;
+}
+
+.pagination li.disabled span {
+    color: #999;
+    background-color: #eee;
+    cursor: not-allowed;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -83,7 +128,7 @@ footer {
     padding: 10px;
     margin-top: 20px;
     font-size: 14px;
-    color: #333;
+    color: #007bff;
 }
 .btn-blue {
     background-color: blue;
@@ -119,7 +164,7 @@ header {
 }
 
 header h1 {
-    color: #b5b5b5;
+    color: white;
     font-weight: normal;
     font-size: 32px;
     font-weight: bold;
@@ -222,7 +267,7 @@ nav a.active {
 
 /* Footer */
 footer {
-    background-color: #222;
+    background-color: #007bff;
     color: white;
     text-align: center;
     padding: 10px;
@@ -335,7 +380,7 @@ label {
 
 /* Header */
 header {
-    background: #2C3E50;
+    background: #007bff;
     color: white;
     text-align: center;
     padding: 20px;
@@ -344,7 +389,7 @@ header {
 
 /* Navigation */
 nav {
-    background: #34495E;
+    background: #007bff;
     padding: 10px 0;
     margin-top: 10px;
     border-radius: 8px;
@@ -370,7 +415,7 @@ nav ul li a {
 
 nav ul li a:hover, 
 nav ul li a.active {
-    background: #1ABC9C;
+    background: dark;
     border-radius: 5px;
 }
 
@@ -404,7 +449,7 @@ nav ul li a.active {
 }
 
 .widget-box h3 {
-    background: #1ABC9C;
+    background: #08342b;
     color: white;
     padding: 10px;
     border-radius: 5px;
@@ -573,4 +618,73 @@ footer {
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+<style>
+.form-search {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.form-search input[type="text"] {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    width: 250px;
+    transition: border-color 0.2s ease-in-out;
+}
+
+.form-search input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.form-search input[type="submit"] {
+    padding: 8px 16px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    width: auto; /* Ini penting agar tidak panjang */
+    white-space: nowrap; /* Biar teks gak kebungkus */
+    transition: background-color 0.2s ease-in-out;
+}
+
+.form-search input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+/* Artikel Terkini */
+.artikel-terkini {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.artikel-item {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.artikel-link {
+    font-weight: bold;
+    color: #333;
+}
+
+.artikel-link:hover {
+    color: #007bff;
+}
+
+.artikel-tanggal {
+    color: #666;
+    font-size: 0.85em;
+}
+
+.no-artikel {
+    color: #888;
+    font-style: italic;
 }
