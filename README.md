@@ -33,7 +33,7 @@ Selesaikan programnya sesuai Langkah-langkah yang ada.
 
 - Add Data
 
-![image](ss/s16.png)
+![image](ss/ss16.png)
 
 - Edit Data
 
