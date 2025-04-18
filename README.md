@@ -23,11 +23,11 @@ link pada navigasi header dapat menampilkan tampilan dengan layout yang sama.
 
 ![image](ss/ss2.png)
 ## Praktikum 4
-### Halaman Login dengan filter Auth pada Config/Routes.php, menyimpan database dengan UserSeeder.
+-  Halaman Login dengan filter Auth pada Config/Routes.php, menyimpan database dengan UserSeeder.
 
 ![image](ss/ss25.png)
 
-### Setelah Login & Masuk ke halaman Admin Artikel.
+- Setelah Login & Masuk ke halaman Admin Artikel.
 
 ![image](ss/ss26.png)
 
