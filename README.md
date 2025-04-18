@@ -96,6 +96,6 @@ App/Views/artikel/admin_index.php bagian paling bawah diatas footer
 
 Hasilnya akan seperti ini:
 
-![image](ss/ssp5.png)
+![image](ss/goon5.png)
 
 ### Going on
