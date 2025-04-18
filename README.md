@@ -22,6 +22,23 @@ link pada navigasi header dapat menampilkan tampilan dengan layout yang sama.
 - Kontak
 
 ![image](ss/ss2.png)
+
+## Praktikum 2
+
+Selesaikan programnya sesuai Langkah-langkah yang ada.
+
+- Admin Portal Berita
+
+![image](ss/ss13.png)
+
+- Add Data
+
+![image](ss/s16.png)
+
+- Edit Data
+
+![image](ss/ss19.png)
+
 ## Praktikum 4
 -  Halaman Login dengan filter Auth pada Config/Routes.php, menyimpan database dengan UserSeeder.
 
