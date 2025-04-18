@@ -9,11 +9,11 @@
 ## Praktikum 4
 ### Halaman Login dengan filter Auth pada Config/Routes.php, menyimpan database dengan UserSeeder.
 
-![image](ss25.png)
+![image](ss/ss25.png)
 
 ### Setelah Login & Masuk ke halaman Admin Artikel.
 
-![image](ss26.png)
+![image](ss/ss26.png)
 
 ## Praktikum 5
 - Membuat Pagination
